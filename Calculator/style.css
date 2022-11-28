@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lightgray;
+    /* background-image: url("https://media.istockphoto.com/illustrations/very-complicated-math-formula-on-blackboard-illustration-id536754333?k=6&m=536754333&s=170667a&w=0&h=z82lcImo_Qa_EgUfU8YDvMpz8wzyabO-Bjec8wjlcxQ="); */
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    text-align: center;
+    margin-top: 23px;
+    display: inline-block;
+    margin-left: 730px;
+
+}
+table{
+    margin: auto;
+}
+
+input{
+    font-size: 30px;
+    border-radius: 15px;
+    border: 5px solid black;
+    font-weight: 700;
+    height: 50px;
+}
+
+button{
+    font-size: 40px;
+    background-color: whitesmoke;
+    width: 95px;
+    height: 60px;
+    margin: 3px;
+    border-radius: 15px;
+}
+
+button:hover{
+    background-color: cadetblue;
+}
+
+.functioning{
+    background-color: yellowgreen;
+}
+
+.functioning:hover{
+    background-color: tomato;
+}
+
+#output{
+    background-color: lightskyblue;
+}
+
+.calculator{
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(156, 160, 159);
+    border-radius: 12px;
+    border: 4px solid black;
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 190px;
+}
